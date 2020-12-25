@@ -7,7 +7,7 @@ services:
       - qbittorrent_config:/config
     command: >
       bash -c "/usr/bin/qbittorrent-nox --webui-port=8111 &
-               /usr/local/bin/test.sh -t 30 -u http://localhost:8112/ -e qBittorrent"
+               /usr/local/bin/test.sh -t 30 -u http://localhost:8111/ -e qBittorrent"
 
 volumes:
   qbittorrent_config:
