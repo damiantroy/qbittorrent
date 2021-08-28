@@ -1,6 +1,6 @@
-# qBittorrent CentOS container
+# qBittorrent Rocky Linux container
 
-This is a CentOS 8 container for [qBittorrent](https://www.qbittorrent.org/), an open source BitTorrent client.
+This is a Rocky Linux 8 container for [qBittorrent](https://www.qbittorrent.org/), an open source BitTorrent client.
 
 ## Building
 
